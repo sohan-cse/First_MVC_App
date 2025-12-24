@@ -18,6 +18,21 @@ namespace First_MVC_App.Controllers
             return View();
         }
 
+        //public string AboutUs()
+        //{
+        //   return "This is TechSparks about usu page which is created for enthusiastic learners to learn ASP.NET Core MVC framework in easy way.";
+        //}
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
